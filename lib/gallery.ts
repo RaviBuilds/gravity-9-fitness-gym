@@ -5,54 +5,56 @@ import type { GalleryItem } from "./types";
  * filename order is not a data dependency. Every item requires alt text
  * describing the actual image.
  *
- * GRAVITY 9 FITNESS CENTRE — PLACEHOLDER photography occupying final filenames
- * (public/assets/gallery/gravity-9-banjara-hills-gallery-<subject>.jpg).
- * docs/Gym-research.md ASSET_MANIFEST supplies no approved gym photography
- * (gallery: NOT_FOUND), so existing template images sit on these filenames.
- * The operator replaces each file IN PLACE with an owner-approved Gravity 9
- * photograph; filenames and this file stay unchanged.
+ * GRAVITY 9 FITNESS CENTRE — real facility photographs supplied by the
+ * operator (public/assets/gallery/gravity-9-banjara-hills-gallery-<subject>.jpg).
+ * Filenames follow docs/MASTER-GYM-ASSET-CONTRACT.md; a photo can be swapped
+ * in place without touching this file.
  *
- * ALT TEXT describes the INTENDED FINAL SUBJECT (a documented facility zone
- * or program from the research), kept to what the research supports. When the
- * real photographs are dropped in, re-check each alt against the frame.
+ * ALT TEXT describes what each frame visibly shows. Re-check it if a photo is
+ * replaced. No claim, count, award or superlative is encoded here.
  *
- * Only subjects the research reports are listed: strength and free-weight
- * area, plate-loaded machines, cardio equipment, personal training, and
- * group fitness. No claim, count, award or superlative is encoded here.
+ * ORDER is editorial: wide floor shots first, then strength, then
+ * conditioning and people. The two people photos are the operator's own
+ * supplied images; confirm member/trainer consent before final-client launch.
+ * Unused lower-resolution duplicates (5.jpg, 6.jpg) remain in the folder.
  */
 const GALLERY = "/assets/gallery/gravity-9-banjara-hills-gallery";
 
 export const galleryItems: GalleryItem[] = [
   {
-    src: `${GALLERY}-training-floor.jpg`,
-    alt: "Gravity 9 Fitness Centre training floor in Banjara Hills, Hyderabad",
-  },
-  {
-    src: `${GALLERY}-strength-area.jpg`,
-    alt: "Strength training area at Gravity 9 Fitness Centre, Banjara Hills",
-  },
-  {
-    src: `${GALLERY}-free-weights.jpg`,
-    alt: "Free weights and dumbbell racks at Gravity 9 Fitness Centre, Banjara Hills",
-  },
-  {
-    src: `${GALLERY}-plate-loaded-machines.jpg`,
-    alt: "Plate-loaded strength machines at Gravity 9 Fitness Centre",
-  },
-  {
     src: `${GALLERY}-cardio-area.jpg`,
-    alt: "Cardio equipment area at Gravity 9 Fitness Centre, Banjara Hills",
+    alt: "Elliptical trainers and yellow indoor cycling bikes on the cardio floor at Gravity 9 Fitness Centre",
   },
   {
-    src: `${GALLERY}-personal-training.jpg`,
-    alt: "Personal training on the gym floor at Gravity 9 Fitness Centre",
+    src: `${GALLERY}-dumbbell-rack.jpg`,
+    alt: "Two-tier rack of rubber-coated dumbbells from 12.5 to 30 at Gravity 9 Fitness Centre",
   },
   {
-    src: `${GALLERY}-group-fitness-studio.jpg`,
-    alt: "Group fitness space at Gravity 9 Fitness Centre, Banjara Hills",
+    src: `${GALLERY}-leg-press.jpg`,
+    alt: "Member training on an angled plate-loaded leg press at Gravity 9 Fitness Centre",
   },
   {
-    src: `${GALLERY}-gym-interior.jpg`,
-    alt: "Gravity 9 Fitness Centre gym interior, Banjara Hills, Hyderabad",
+    src: `${GALLERY}-plate-loaded-machine.jpg`,
+    alt: "Plate-loaded strength machine on the training floor at Gravity 9 Fitness Centre",
+  },
+  {
+    src: `${GALLERY}-plate-loaded-station.jpg`,
+    alt: "Plate-loaded station with a weight plate on the wood-effect floor at Gravity 9 Fitness Centre",
+  },
+  {
+    src: `${GALLERY}-indoor-cycling-bikes.jpg`,
+    alt: "Three yellow indoor cycling bikes beside a large training tyre at Gravity 9 Fitness Centre",
+  },
+  {
+    src: `${GALLERY}-partner-dumbbell-squats.jpg`,
+    alt: "Two people performing dumbbell squats side by side on the turf area at Gravity 9 Fitness Centre",
+  },
+  {
+    src: `${GALLERY}-cable-station.jpg`,
+    alt: "Cable and bench stations with members training at Gravity 9 Fitness Centre",
+  },
+  {
+    src: `${GALLERY}-heavy-bag-training.jpg`,
+    alt: "Member punching a heavy bag at Gravity 9 Fitness Centre",
   },
 ];

@@ -79,13 +79,13 @@ export const programsConfiguration: ProgramsConfiguration = {
       id: "guided",
       label: "Guided training",
       presentation: "modules",
-      serviceIds: ["personal-training", "conditioning"],
+      serviceIds: ["personal-training"],
     },
     {
       id: "group-classes",
       label: "Group classes",
       presentation: "classes",
-      serviceIds: ["zumba", "yoga"],
+      serviceIds: ["zumba", "yoga", "conditioning"],
     },
   ],
   imageFocus: {

@@ -59,7 +59,7 @@ export const services: Service[] = [
   },
   {
     id: "conditioning",
-    name: "Cardio Training",
+    name: "Cardio",
     description: "Cardio equipment on the floor, including treadmills and indoor cycling bikes.",
     icon: "cardio",
     image: `${ASSET}-cardio-training.jpg`,
@@ -79,8 +79,8 @@ export const services: Service[] = [
   },
   {
     id: "yoga",
-    name: "Vinyasa Yoga",
-    description: "Listed as a fitness option. Ask the gym about current classes and timings.",
+    name: "Yoga",
+    description: "Vinyasa Yoga is listed as an option. Ask the gym about current classes and timings.",
     icon: "floor",
     image: `${ASSET}-yoga.jpg`,
     verified: true,

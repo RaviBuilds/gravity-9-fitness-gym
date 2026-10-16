@@ -46,12 +46,20 @@ export const googleReviews: GoogleReviews = {
   reviewQrSrc: undefined,
   reviews: [
     {
-      name: "Anonymous User",
-      text: "A unisex gym that has is located at a very convinient location and within easy reach. It has got basic equipment and anyone who is interested in basic fitness - this is the right place.",
+      name: "ruben lobo",
+      text: "I was staying at Banjara hills for a week , being a gym rat i thought why not look for a gym and have a quick workout i was looking for a tiny place with little to no crowd but to my surprise I found this gem of a gym the owner is very good at communicating which made it easy to for me to understand that you don't need a membership but you can pay as a guest and new these machines and equipment overall had an amazing workout 💯. Would recommend this place to anybody anyday 💯🤌🏼",
+    },
+    {
+      name: "Gvpraveen Gvpk",
+      text: "I am working out in this gym ... It's awesome with a very good trainer. The trainer is a well experienced one, can teach as you want and will Design your workout as your wish. Finally it's a good gym for beginners.",
     },
     {
       name: "Anonymous User",
       text: "It's awesome with a very good trainer. The trainer is a well experienced one, can teach as you want and will Design your workout as your wish. Finally it's a good gym for beginners.",
+    },
+    {
+      name: "Anil Kumar",
+      text: "The gym is awesome N well equipped N Spacious, And especially this gym has proper Management and responsible Trainers (RAMBABU and Bhargav) they guide you and motivate you to reach your fitness goals... I recommend anyone wants to start your fitness journey you can begin here.",
     },
   ],
 };
